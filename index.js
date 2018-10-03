@@ -4,7 +4,11 @@ export default {
   install(Vue, options) {
     Vue.mixin({
       mounted() {
-        console.log($('#vue-module-demo').text())
+        $.fn.vueModuleDemo = function () {
+          return this.css({
+            color: 'red'
+          })
+        }
       }
     }),
       Vue.component('vue-module-demo', {
