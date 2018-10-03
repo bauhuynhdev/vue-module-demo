@@ -8,7 +8,7 @@ export default {
       }
     }),
       Vue.component('vue-module-demo', {
-        template: '<h1 id="vue-module-demo">Vue module demo</h1>'
+        template: '<h1 id="vue-module-demo">Jquery vue module demo</h1>'
       })
   }
 }
