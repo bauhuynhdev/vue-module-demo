@@ -1,6 +1,6 @@
 {
   "name": "vue-module-demo",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,8 @@
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "vue": "^2.5.17"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }

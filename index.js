@@ -1,12 +1,14 @@
+import $ from 'jquery'
+
 export default {
   install(Vue, options) {
     Vue.mixin({
       mounted() {
-        console.log('Vue-module-demo')
+        console.log($('#vue-module-demo').text())
       }
     }),
       Vue.component('vue-module-demo', {
-        template: '<h1>Vue module demo</h1>'
+        template: '<h1 id="vue-module-demo">Vue module demo</h1>'
       })
   }
 }
